@@ -1,0 +1,40 @@
+.container-buttons {
+    border: 2px solid #000000;
+    margin-bottom: 200px;
+    border-radius: 3px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-buttons h1 {
+    margin: 10px;
+}
+
+.button-click {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(134, 185, 219);
+    color: white;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 3px;
+    margin: 15px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.button-click:hover {
+    transform: scale(1.09);
+    transition: 0.2s;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.buttons {
+    margin-top: 80px;
+}
+
+.result {
+    margin: 10px;
+}

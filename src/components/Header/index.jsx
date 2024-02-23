@@ -9,7 +9,6 @@ export function Header (props) {
                 <h1>{props.title}</h1>
                 <h2>{props.subTitle}</h2>
             </div>
-            
         </header>
     )
 }
