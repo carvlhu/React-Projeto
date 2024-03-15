@@ -1,0 +1,13 @@
+.section-banner {
+    display: flex;
+    align-items: center;
+}
+
+.section-banner h3 {
+    margin: 10px 0;
+}
+
+.section-banner p {
+    text-align: center;
+    margin: 10px auto;
+}

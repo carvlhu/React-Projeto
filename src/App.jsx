@@ -1,16 +1,15 @@
 import { Header } from './components/Header'
-import {Contador} from './components/Contador'
-import {Lista} from './components/Lista'
+import {Footer} from './components/Footer'
+import Router from './Router'
 import './App.css'
 
 function App() {
   return (
     <>
-      <main className='container'>
-        <Header title="Projeto React" subTitle="Procedimento"/>
-        <Contador/>
-        <Lista/>
-      </main>
+
+      <Header title="Projeto React" subTitle="Procedimento"/>
+      <Router />
+      <Footer/>
     </>
   )
 }

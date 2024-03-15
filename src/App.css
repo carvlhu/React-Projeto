@@ -29,3 +29,28 @@ body::-webkit-scrollbar-thumb {
 main {
     margin-top: 40px !important;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+a:hover {
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.lista-db::-webkit-scrollbar {
+    width: 0.33vw; 
+}
+
+.lista-db::-webkit-scrollbar-track {
+    background: rgb(219, 219, 219);
+    border-radius: 0.15vw;
+}
+
+.lista-db::-webkit-scrollbar-thumb {
+    background-color: rgb(139, 139, 139);
+    border-radius: 0.22vw;
+}

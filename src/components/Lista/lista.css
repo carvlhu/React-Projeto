@@ -54,3 +54,22 @@ p {
 .nomes-linha {
     margin: 10px;
 }
+
+.lista {
+    height: 250px;
+    overflow: auto;
+}
+
+.lista::-webkit-scrollbar {
+    width: 0.44vw; 
+}
+
+.lista::-webkit-scrollbar-track {
+    background: rgb(219, 219, 219);
+    border-radius: 0.15vw;
+}
+
+.lista::-webkit-scrollbar-thumb {
+    background-color: rgb(139, 139, 139);
+    border-radius: 0.22vw;
+}

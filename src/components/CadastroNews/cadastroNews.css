@@ -1,0 +1,53 @@
+.formClass {
+    background-color: white;
+    padding: 50px 0;
+    border: 2px solid black;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+.form-control {
+    margin: 50px 20px;
+}
+
+.formMain {
+    
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(134, 185, 219);
+    color: white;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 3px;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.09);
+    transition: 0.2s;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+label {
+    margin: 10px;
+    font-weight: 500;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgb(111, 111, 111);
+    padding: 10px 50px;
+    font-size: 15px;
+}
+
+input:focus {
+    border: none;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,35 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lista-db {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-top: 50px;
+}
+
+.lista-info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(230, 230, 230);
+}
+
+strong {
+    font-weight: 500;
+    padding: 6px 0;
+}
